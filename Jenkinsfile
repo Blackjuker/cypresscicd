@@ -11,6 +11,11 @@ pipeline{
                 sh 'npm --version'
             }
         }
+         stage("verifier la version de cypress"){
+            steps{
+                sh 'npx cypress --version'
+            }
+        }
         stage("lancer mes test"){
             steps {
                 sh 'npx cypress run'
