@@ -33,7 +33,8 @@ pipeline{
     post{
         always {
             ///archiveArtifacts artifacts: 'cypress/reports/**/*', followSymlinks: false,
-            junit 'build/reports/junit/**/*.xml'
+            archiveArtifacts artifacts: 'build/libs/**/*.jar', fingerprint: true
+            junit 'build/reports/**/*.xml'
         }
     }
 }
