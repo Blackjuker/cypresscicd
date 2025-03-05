@@ -26,10 +26,15 @@ pipeline{
                 sh 'npx cypress run'
             }
         }
+        stage("Debug artifacts") {
+            steps {
+                sh 'ls -R cypress/reports/'  # List files recursively
+            }
+        }
     }
     post{
         always {
-            archiveArtifacts artifacts: 'cypress/reports/*/.*', followSymlinks: false
+            archiveArtifacts artifacts: 'cypress/reports/**/*', followSymlinks: false
         }
     }
 }
