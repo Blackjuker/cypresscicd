@@ -7,9 +7,9 @@ pipeline{
     }
     parameters {
         // Définir un paramètre de type choix pour choisir le parcours de tests
-        choice(name: 'parcours', choices: ['parcour1', 'parcour2'], description: 'Sélectionner le parcours à exécuter')
-        choice(name: 'cible', choices: ['smoke', 'sanity'], description: 'Sélectionner la cible des tests')
-        string(name: 'tc-001', defaultValue: 'smoke', description: 'Nom du test')
+        choice(name: 'parcours', choices: ['','parcour1', 'parcour2','smoke','regression'], description: 'Sélectionner le parcours à exécuter')
+       // choice(name: 'cible', choices: ['smoke', 'sanity'], description: 'Sélectionner la cible des tests')
+        string(name: 'tc-001', defaultValue: '', description: 'Nom du test')
     }
     stages{
         stage("verifier que npm fonctionne"){
