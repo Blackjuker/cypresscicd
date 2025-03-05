@@ -10,5 +10,10 @@ pipelines{
                 sh 'npm --version'
             }
         }
+        stage("lancer mes test"){
+            steps {
+                sh 'npx cypress run'
+            }
+        }
     }
 }
