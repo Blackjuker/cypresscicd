@@ -23,7 +23,8 @@ pipeline{
         }
         stage("Executer les test"){
             steps{
-                sh 'npx cypress run'
+                //sh 'npx cypress run'
+                sh 'npx cypress run --env grepTags=@regression'
             }
         }
         
