@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.477" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-03-05T12:23:53" tests="0" file="cypress\e2e\affichageDesProduits.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test affichage des produits" timestamp="2025-03-05T12:23:53" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test affichage des produits" timestamp="2025-03-05T12:23:53" tests="1" time="4.463" failures="0">
+    <testcase name="Test affichage des produits Test affichage des produits Récupérer la liste des produits affichés" time="1.759" classname="Récupérer la liste des produits affichés">
+    </testcase>
+  </testsuite>
+</testsuites>

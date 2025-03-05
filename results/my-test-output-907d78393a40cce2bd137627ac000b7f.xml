@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.215" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-03-05T12:24:12" tests="0" file="cypress\e2e\checkoutoverview.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test dela page de paiement" timestamp="2025-03-05T12:24:12" tests="3" time="12.210" failures="0">
+    <testcase name="Test dela page de paiement Vérifier que le prix total est visible" time="3.095" classname="Vérifier que le prix total est visible">
+    </testcase>
+    <testcase name="Test dela page de paiement Finaliser l&apos;achat" time="2.862" classname="Finaliser l&apos;achat">
+    </testcase>
+    <testcase name="Test dela page de paiement Annuler l&apos;achat" time="2.398" classname="Annuler l&apos;achat">
+    </testcase>
+  </testsuite>
+</testsuites>

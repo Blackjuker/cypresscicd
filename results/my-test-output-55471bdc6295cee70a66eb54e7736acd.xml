@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.908" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-03-05T12:24:01" tests="0" file="cypress\e2e\checkout.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="checkout" timestamp="2025-03-05T12:24:01" tests="1" time="5.899" failures="0">
+    <testcase name="checkout checkout" time="3.513" classname="checkout">
+    </testcase>
+  </testsuite>
+</testsuites>

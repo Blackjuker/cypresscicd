@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.827" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-03-05T12:23:44" tests="0" file="cypress\e2e\AjoutPoduitsCard.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test affichage des produits ajoutés dans cart" timestamp="2025-03-05T12:23:44" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test affichage des produits ajoutés dans cart" timestamp="2025-03-05T12:23:44" tests="1" time="5.816" failures="0">
+    <testcase name="Test affichage des produits ajoutés dans cart Test affichage des produits ajoutés dans cart Ajouter des produits et vérifier s&apos;ils sont ajoutés dans card" time="3.196" classname="Ajouter des produits et vérifier s&apos;ils sont ajoutés dans card">
+    </testcase>
+  </testsuite>
+</testsuites>
