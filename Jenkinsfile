@@ -26,11 +26,7 @@ pipeline{
                 sh 'npx cypress run'
             }
         }
-        stage("Debug artifacts") {
-            steps {
-                sh 'ls -R cypress/reports/'  # List files recursively
-            }
-        }
+        
     }
     post{
         always {
