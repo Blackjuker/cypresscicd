@@ -16,8 +16,14 @@ pipeline{
                 sh 'npx cypress --version'
             }
         }
-        stage("lancer mes test"){
+        stage("installer les dependance"){
             steps {
+                sh 'npm i'
+            }
+        }
+
+        stage("Executer les test"){
+            steps{
                 sh 'npx cypress run'
             }
         }
