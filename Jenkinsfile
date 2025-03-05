@@ -22,6 +22,12 @@ pipeline{
             }
         }
 
+        stage ("installer  mochawesome repoter"){
+            steps{
+                sh 'npm i --save-dev cypress-mochawesome-reporter'
+            }
+        }
+
         stage("Executer les test"){
             steps{
                 sh 'npx cypress run'
